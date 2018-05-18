@@ -8,6 +8,7 @@ class ListContacts extends Component {
   }
 state={
   query : ''
+  screen : 'list'
 }
 updateQuery=(query)=>{
   this.setState(()=>({
